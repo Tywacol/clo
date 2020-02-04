@@ -14,5 +14,7 @@ public abstract class Composant {
 	public String description() {
 		return getId();
 	}
+
+	public abstract boolean getEtat() throws NonConnecteException;
 	
 }
